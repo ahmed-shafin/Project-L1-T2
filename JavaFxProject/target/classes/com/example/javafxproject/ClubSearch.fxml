@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox styleClass="vbox-menu" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.ClubSearchController">
+   <children>
+      <Label styleClass="label-title" text="Club Searching Options" />
+      <Button fx:id="byMaximumSalaryButton" styleClass="button" text="Player(s) with the Maximum Salary" />
+      <Button fx:id="byMaximumAgeButton" styleClass="button" text="Player(s) with the Maximum Age" />
+       <Button fx:id="byMaximumHeightButton" styleClass="button" text="Player(s) with the Maximum Height"/>
+       <Button fx:id="yearlySalaryButton" styleClass="button" text="Total Yearly Salary"/>
+       <Button fx:id="backButton" styleClass="button" text="Back"/>
+   </children>
+</VBox>

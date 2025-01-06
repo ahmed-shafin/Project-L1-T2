@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.MainMenuController">
+    <VBox fx:id="menuContainer" styleClass="vbox-menu" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <Label styleClass="label-title" text="Main Menu" />
+        <Button fx:id="searchPlayersButton" styleClass="button" text="Search Players" />
+        <Button fx:id="searchClubsButton" styleClass="button" text="Search Clubs" />
+        <Button fx:id="addPlayerButton" styleClass="button" text="Add Player" />
+        <Button fx:id="exitButton" styleClass="button" text="Exit System" />
+    </VBox>
+</AnchorPane>

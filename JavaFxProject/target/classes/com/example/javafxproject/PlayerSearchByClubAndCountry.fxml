@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.PlayerSearchByClubAndCountryController">
+    <VBox alignment="CENTER" spacing="20" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" AnchorPane.bottomAnchor="0.0">
+        <Label text="Search Player By Club and Country" styleClass="label-title" />
+        <TextField fx:id="countryField" promptText="Enter Country Name" styleClass="text-field" />
+        <TextField fx:id="clubField" promptText="Enter Club Name" styleClass="text-field" />
+        <Button fx:id="searchButton" text="Search" styleClass="button" />
+        <Label fx:id="resultLabel" styleClass="label-result" />
+        <Button fx:id="backButton" text="Back to Search Menu" styleClass="button-secondary" />
+    </VBox>
+</AnchorPane>
