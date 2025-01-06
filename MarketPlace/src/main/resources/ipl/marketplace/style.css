@@ -1,0 +1,124 @@
+/* General Root Style */
+.root {
+    -fx-font-family: "Arial, sans-serif";
+    -fx-background-color: #e9ecef;
+    -fx-padding: 20px;
+}
+
+/* Title Label */
+.label-title {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+    -fx-alignment: center;
+    -fx-padding: 20px 0 40px 0;
+}
+
+/* General Button Style */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 0); /* Reduced shadow effect */
+}
+
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+
+.button:pressed {
+    -fx-background-color: #1a5276;
+}
+
+/* Secondary Button Style */
+.button-secondary {
+    -fx-background-color: #95a5a6;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.button-secondary:hover {
+    -fx-background-color: #7f8c8d;
+}
+
+.button-secondary:pressed {
+    -fx-background-color: #5f6a6a;
+}
+
+/* VBox Menu Style */
+.vbox-menu {
+    -fx-alignment: center;
+    -fx-spacing: 20px;
+}
+
+/* TextField Style */
+.text-field {
+    -fx-pref-width: 300px;
+    -fx-max-width: 300px;
+    -fx-padding: 5px;
+    -fx-font-size: 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-border-color: #ccc;
+}
+
+.text-field:focused {
+    -fx-border-color: #3498db;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.5), 5, 0.5, 0, 0);
+}
+
+/* TextArea Style */
+.text-area {
+    -fx-pref-width: 600px;
+    -fx-pref-height: 400px;
+    -fx-padding: 12px;
+    -fx-font-size: 16px;
+    -fx-border-radius: 8px;
+    -fx-background-radius: 8px;
+    -fx-border-color: #ccc;
+    -fx-background-color: #f8f9fa;
+    -fx-text-fill: #2c3e50;
+    -fx-font-family: "Arial, sans-serif";
+    -fx-wrap-text: true;
+}
+
+/* TextArea Focused Style */
+.text-area:focused {
+    -fx-border-color: #3498db;
+    -fx-background-color: #ffffff;
+    -fx-effect: dropshadow(gaussian, rgba(52, 152, 219, 0.3), 5, 0.5, 0, 0);
+    -fx-text-fill: #2c3e50;
+}
+
+/* TextArea Disabled Style */
+.text-area:disabled {
+    -fx-border-color: #bdc3c7;
+    -fx-background-color: #ecf0f1;
+    -fx-text-fill: #7f8c8d;
+}
+
+/* Result Label Style */
+.label-result {
+    -fx-text-fill: #2c3e50;
+    -fx-font-size: 16px;
+    -fx-padding: 10px;
+    -fx-wrap-text: true;
+    -fx-alignment: center;
+}
+
+/* Disabled Button Style */
+.button:disabled {
+    -fx-background-color: #bdc3c7;
+    -fx-text-fill: white;
+    -fx-cursor: not-allowed;
+    -fx-effect: none;
+}
